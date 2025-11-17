@@ -186,7 +186,9 @@ Funciona en Windows, Linux y macOS.
 ## 👨‍💻 Autor
 
 Kevin Yavari Yoshioka
+
 Proyecto académico — Sistemas Operativos
+
 Pontificia Universidad Javeriana Cali
 
 ---
