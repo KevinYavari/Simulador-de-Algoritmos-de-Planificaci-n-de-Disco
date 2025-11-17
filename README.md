@@ -151,11 +151,15 @@ comparacion_movimiento.png
 
 comparacion_eficiencia.png
 
-##🔹 Requisitos
+---
+
+## Requisitos
 
 pip install matplotlib
 
-##🔹 Ejecutar
+---
+
+## Ejecutar
 
 python graficas_disk.py
 
