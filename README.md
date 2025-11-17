@@ -185,8 +185,6 @@ Funciona en Windows, Linux y macOS.
 
 ---
 
----
-
 ## 📦 Archivos generados automáticamente (salidas del programa)
 
 Al ejecutar el simulador y el script de gráficas, se generan los siguientes archivos de referencia:
@@ -246,7 +244,7 @@ Puedes regenerar todas estas salidas ejecutando:
 -->
 
 
----
+
 
 ## 👨‍💻 Autor
 
