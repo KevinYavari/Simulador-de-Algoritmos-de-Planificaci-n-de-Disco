@@ -183,6 +183,71 @@ El programa está diseñado para extenderse (por ejemplo: añadir SSTF).
 
 Funciona en Windows, Linux y macOS.
 
+---
+
+---
+
+## 📦 Archivos generados automáticamente (salidas del programa)
+
+Al ejecutar el simulador y el script de gráficas, se generan los siguientes archivos de referencia:
+
+### 📝 Salidas de texto (resultados de los algoritmos)
+- `salida_fcfs.txt`  
+  → Contiene el movimiento total del cabezal usando **FCFS**.
+
+- `salida_scan.txt`  
+  → Contiene el movimiento total del cabezal usando **SCAN**.
+
+- `salida_cscan.txt`  
+  → Contiene el movimiento total del cabezal usando **C-SCAN**.
+
+- `resultados_graficas.txt`  
+  → Archivo resumen en formato simple:
+    ```
+    FCFS <valor>
+    SCAN <valor>
+    C-SCAN <valor>
+    ```
+    Este archivo es leído por `graficas_disk.py` para generar las gráficas.
+
+---
+
+## 🖼️ Salidas gráficas (para el informe)
+Estas imágenes son generadas por el script de Python:
+
+- `comparacion_movimiento.png`  
+  → Gráfica de barras que muestra el movimiento total del cabezal para cada algoritmo.
+
+- `comparacion_eficiencia.png`  
+  → Gráfica normalizada que compara la eficiencia relativa entre los algoritmos.
+
+---
+
+<!--  
+COMENTARIO IMPORTANTE  
+Este repositorio incluye referencias de salida generadas por el simulador (archivos .txt)
+y por el script de Python (archivos .png).  
+Las salidas sirven como ejemplos para validar el funcionamiento del proyecto.
+Los archivos esperados son:
+
+TXT:
+  - salida_fcfs.txt
+  - salida_scan.txt
+  - salida_cscan.txt
+  - resultados_graficas.txt
+
+PNG:
+  - comparacion_movimiento.png
+  - comparacion_eficiencia.png
+
+Puedes regenerar todas estas salidas ejecutando:
+  ./disk_sim
+  python graficas_disk.py
+-->
+
+
+---
+
 ## 👨‍💻 Autor
 
 Kevin Yavari Yoshioka
