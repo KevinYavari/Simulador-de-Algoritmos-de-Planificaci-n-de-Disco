@@ -1,0 +1,5 @@
+Resultados de planificación de disco
+-----------------------------------
+FCFS  : 0 cilindros de movimiento
+SCAN  : 7424 cilindros de movimiento
+C-SCAN: 0 cilindros de movimiento
